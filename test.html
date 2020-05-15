@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <style>
+    body { font-family: sans-serif; font-size: 24px; }
+    a { text-decoration: none; color: #333; }
+    a.primary { color: #FF8C00; }
+
+    @media only screen and (max-width: 600px) {
+      tr.faux { display: block; }
+      span.navlink { display: block; }
+    }
+  </style>
+</head>
+
+<body>
+  <table style="width: 100%;">
+    <tr class="faux">
+      <td rowspan="2"><img src="square.jpg" /></td>
+      <td rowspan="2" align="right">
+        <span class="navlink"><a href="#">Forum</a></span>
+        <span class="navlink"><a href="#">Calendar</a></span>
+        <span class="navlink"><a href="#">Directory</a></span>
+      </td>
+    </tr>
+
+    <tr class="faux">
+      <td><span class="navlink"><a class="primary" href="#">Compose</a></span></td>
+    </tr>
+  </table>
+</body>
